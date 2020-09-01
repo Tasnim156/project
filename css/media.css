@@ -1,0 +1,356 @@
+@media (max-width:1024px) {
+    .form-top input {
+        width: 140px;
+        margin: 5px;
+    }
+    .icon a {
+        margin-left: 18px;
+    }
+    .carousel-control-prev-icon {
+        margin-left: -175px;
+        width: 35px;
+        height: 35px;
+    }
+    .carousel-control-next-icon {
+        margin-right: -175px;
+        width: 35px;
+        height: 35px;
+    }
+    .carosul-img {
+        height: 250px;
+    }
+    .left-text p {
+        font-size: 21px;
+        width: 265px;
+        font-weight: 400;
+    }
+    .right-text p {
+        font-size: 19px;
+        width: 175px;
+        margin-bottom: 25px;
+    }
+    .join-head {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #navbarResponsive ul li a {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .nav-icon {
+        margin-top: 0;
+    }
+    .hero {
+        width: 100%;
+        padding-top: 125px;
+        padding-bottom: 350px;
+    }
+    .form-top {
+        text-align: center;
+    }
+    .form-top input {
+        width: 180px;
+    }
+    .form-top input :nth-child(4),
+    .form-top input:last-child {
+        margin-top: 20px;
+    }
+    .left-form input::placeholder {
+        color: black;
+        font-size: 16px;
+    }
+    .right-form select {
+        font-size: 16px;
+        padding: 16px 15px;
+        appearance: none;
+    }
+    .icon {
+        width: 10%;
+        float: left;
+    }
+    .update-news {
+        z-index: 1;
+        margin-top: -110px;
+    }
+    .service-title a {
+        font-size: 35px;
+        margin-left: 15px;
+        margin-right: 40px;
+        margin-top: 5px;
+    }
+    .service-title p {
+        float: left;
+        color: #fff;
+        font-size: 17px;
+        margin: 20px auto;
+    }
+    .service-title img {
+        float: left;
+        margin-right: 25px;
+        margin-left: 10px;
+        width: 60px;
+        height: auto;
+    }
+    service-title-one {
+        float: left;
+    }
+    .service-title-one a img {
+        width: 50px;
+        height: auto;
+        margin-top: -18px;
+    }
+    .service-title-one p {
+        float: left;
+        color: #fff;
+        font-size: 17px;
+        margin: 20px auto;
+    }
+    .service-title-one a {
+        float: left;
+        color: #fff;
+        font-size: 40px;
+        margin-left: 15px;
+        margin-right: 25px;
+    }
+    .carousel-control-prev-icon {
+        margin-left: -135px;
+        width: 30px;
+        height: 30px;
+    }
+    .carousel-control-next-icon {
+        margin-right: -135px;
+        width: 30px;
+        height: 30px;
+    }
+    .carosul-img {
+        height: 190px;
+    }
+    .join-head {
+        margin-top: 20px;
+    }
+    .join-head h3 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .join-text p {
+        font-size: 15px;
+        text-align: justify;
+        height: 40px;
+    }
+    .left-text p {
+        font-size: 18px;
+        width: 265px;
+        font-weight: 400;
+    }
+    .right-text p {
+        font-size: 18px;
+        width: 168px;
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .navbar-brand img {
+        width: 250px;
+    }
+    #navbarResponsive ul li a {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .nav-icon {
+        margin-top: 0;
+    }
+    .form-top {
+        text-align: center;
+    }
+    .form-top input {
+        width: 145px;
+        padding: 9px 15px;
+        margin-top: 20px;
+    }
+    .form-top input::placeholder {
+        font-size: 15px;
+    }
+    .hero {
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 350px;
+    }
+    .left-form {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .right-form {
+        width: 80%;
+    }
+    .icon {
+        width: 18%;
+    }
+    .update {
+        padding-top: 200px;
+    }
+    .update-news {
+        margin-left: 3px;
+    }
+    .service-head {
+        padding: 50px 0px;
+        border-top: 1px solid lightgrey;
+    }
+    .img-hover img {
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+    .service-title-one {
+        margin-bottom: 25px;
+    }
+    .join {
+        border-top: 1px solid lightgrey;
+    }
+    .join-head {
+        margin-bottom: 25px;
+    }
+    .left-text p {
+        font-size: 21px;
+        margin: 0 auto;
+        font-weight: 400;
+    }
+    .right-text {
+        margin-top: 50px;
+    }
+    .right-text p {
+        font-size: 19px;
+        width: 268px;
+        margin: 25px auto;
+    }
+    .carousel-control-prev-icon {
+        margin-left: 25px;
+        width: 30px;
+        height: 30px;
+    }
+    .carousel-control-next-icon {
+        margin-right: 25px;
+        width: 30px;
+        height: 30px;
+    }
+    .carosul-img {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+    .navbar-brand img {
+        width: 220px;
+    }
+    #navbarResponsive ul li a {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .nav-icon {
+        margin-top: 0;
+    }
+    .form-top {
+        text-align: center;
+    }
+    .form-top input {
+        width: 100%;
+        padding: 10px 15px;
+        margin-top: 20px;
+    }
+    .form-top input::placeholder {
+        font-size: 16px;
+    }
+    .right-form select {
+        padding: 15px 15px;
+    }
+    .hero {
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 350px;
+    }
+    .left-form {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .right-form {
+        width: 80%;
+    }
+    .icon {
+        width: 18%;
+    }
+    .icon a {
+        margin-left: 10px;
+    }
+    .update {
+        padding-top: 200px;
+    }
+    .img-hover img {
+        margin-bottom: 20px;
+    }
+    .service-head {
+        padding: 50px 0px;
+        border-top: 1px solid lightgrey;
+    }
+    .service-title a {
+        float: left;
+        font-size: 40px;
+        margin-left: 15px;
+        margin-right: 25px;
+    }
+    .service-title p {
+        float: left;
+        font-size: 20px;
+    }
+    .service-title img {
+        float: left;
+        margin-right: 25px;
+        margin-left: 10px;
+        width: 60px;
+        height: auto;
+    }
+    .service-title-one {
+        margin-bottom: 25px;
+    }
+    .service-title-one a {
+        margin-right: 25px;
+    }
+    .service-title-one p {
+        font-size: 20px
+    }
+    .join {
+        border-top: 1px solid lightgrey;
+    }
+    .join-head {
+        margin-bottom: 25px;
+    }
+    .join-text p {
+        margin-bottom: 60px;
+    }
+    .left-text p {
+        font-size: 18px;
+        margin: 0 auto;
+        font-weight: 400;
+    }
+    .right-text {
+        margin-top: 50px;
+    }
+    .right-text p {
+        font-size: 17px;
+        width: 268px;
+        margin: 25px auto;
+    }
+    .carousel-control-prev-icon {
+        margin-left: -40px;
+        width: 30px;
+        height: 30px;
+    }
+    .carousel-control-next-icon {
+        margin-right: -40px;
+        width: 30px;
+        height: 30px;
+    }
+    .carosul-img {
+        margin-bottom: 20px;
+    }
+}

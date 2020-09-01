@@ -1,0 +1,302 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     font-family: 'Lato', sans-serif;
+ }
+ /*Header Part Started */
+ 
+ #mainNav.navbar-scrolled {
+     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+     background-color: black;
+ }
+ 
+ #mainNav .navbar-nav .nav-item .nav-link {
+     color: rgb(255, 255, 255);
+ }
+ 
+ #mainNav .navbar-nav .nav-item .nav-link.active {
+     color: #ED145B!important;
+ }
+ 
+ .navbar-dark {
+     background: #11489A!important;
+ }
+ 
+ .nav-item a {
+     color: #fff!important;
+     margin-left: 22px;
+     font-weight: bold;
+     font-size: 16px;
+     font-family: 'Lato', sans-serif;
+ }
+ 
+ .pink {
+     color: #ed145b!important;
+ }
+ 
+ .nav-icon {
+     margin-top: -20px;
+     height: auto;
+     width: 65px;
+ }
+ /*Header part Ended*/
+ /*Hero Section Started*/
+ 
+ .hero {
+     background: url('../img/hero-image.jpg') no-repeat center top;
+     background-size: cover;
+     width: 100%;
+     padding-top: 200px;
+     padding-bottom: 500px;
+ }
+ 
+ .form-top {
+     width: 75%;
+     margin: 0 auto;
+     padding: 50px 0px;
+ }
+ 
+ .form-top input {
+     width: 175px;
+     margin-right: 20px;
+     box-sizing: border-box;
+     border: 1px solid #bdc7d8;
+     font-size: 15px;
+     border-radius: 20px;
+     padding: 10px 16px;
+ }
+ 
+ .form-top input::placeholder {
+     color: black;
+ }
+ 
+ .form-top input:last-child {
+     margin-right: 0;
+ }
+ 
+ .form-top input:focus {
+     outline: none;
+ }
+ 
+ .form-bottom {
+     width: 75%;
+     margin: 0 auto;
+ }
+ 
+ .form {
+     width: 100%;
+     float: left;
+ }
+ 
+ .left-form {
+     width: 50%;
+     float: left;
+ }
+ 
+ .left-form input {
+     width: 95%;
+     box-sizing: border-box;
+     border: 1px solid #bdc7d8;
+     font-size: 16px;
+     border-radius: 25px 0px 0px 25px;
+     padding: 15px 25px;
+ }
+ 
+ .left-form input:focus {
+     outline: none;
+ }
+ 
+ .left-form input::placeholder {
+     color: black;
+     font-size: 20px;
+ }
+ 
+ .right-form {
+     width: 40%;
+     float: left;
+ }
+ 
+ .right-form select {
+     width: 95%;
+     box-sizing: border-box;
+     border: none;
+     font-size: 18px;
+     padding: 15px 15px;
+     outline: none;
+     appearance: none;
+ }
+ 
+ .icon {
+     width: 8%;
+     background-color: #11489A;
+     float: left;
+     border-radius: 0px 30px 30px 0px;
+ }
+ 
+ .icon a {
+     text-decoration: none;
+     color: white;
+     font-size: 38px;
+     margin-left: 24px;
+ }
+ 
+ .update {
+     padding: 20px 0px;
+ }
+ 
+ .update-news {
+     z-index: 1;
+     margin-top: -160px;
+ }
+ /*Hero Section Ended */
+ /* Service Part Started*/
+ 
+ .service-head {
+     padding: 100px 0px;
+ }
+ 
+ .service-title {
+     width: 100%;
+     float: left;
+     background-color: #11489A;
+     border-radius: 0px 40px 40px 0px;
+     margin-bottom: 25px;
+ }
+ 
+ .service-title a {
+     float: left;
+     color: #fff;
+     font-size: 50px;
+     margin-left: 15px;
+     margin-right: 55px;
+ }
+ 
+ .service-title p {
+     float: left;
+     color: #fff;
+     font-size: 26px;
+     margin: 20px auto;
+ }
+ 
+ .service-title img {
+     float: left;
+     margin-top: 15px;
+     margin-right: 25px;
+     margin-left: 10px;
+ }
+ 
+ .service-title-one {
+     width: 100%;
+     float: left;
+     background-color: #11489A;
+     border-radius: 0px 40px 40px 0px;
+ }
+ 
+ .service-title-one a {
+     float: left;
+     color: #fff;
+     font-size: 50px;
+     margin-left: 15px;
+     margin-right: 55px;
+ }
+ 
+ .service-title-one a img {
+     width: 65px;
+     height: auto;
+     margin-top: -18px;
+ }
+ 
+ .service-title-one p {
+     float: left;
+     color: #fff;
+     font-size: 26px;
+     margin: 20px auto;
+ }
+ /* Service Part Ended */
+ /*Carosul Part Started */
+ 
+ .carosul {
+     background: #11489A;
+     opacity: 100%;
+     padding: 80px 0px;
+ }
+ 
+ .carousel-item {
+     text-align: center;
+ }
+ 
+ .carousel-control-prev-icon {
+     margin-left: -210px;
+     width: 40px;
+     height: 40px;
+ }
+ 
+ .carousel-control-next-icon {
+     margin-right: -210px;
+     width: 40px;
+     height: 40px;
+ }
+ /*Carosul Part Ended */
+ /*Join Part Started */
+ 
+ .join {
+     padding: 100px 0px;
+ }
+ 
+ .join-head {
+     width: 100%;
+     float: left;
+     background-color: #11489A;
+     border-radius: 0px 40px 40px 0px;
+     padding: 15px 0px;
+ }
+ 
+ .join-head h3 {
+     font-size: 40px;
+     color: #fff;
+     text-align: center;
+     margin-bottom: 0;
+ }
+ 
+ .join-text {
+     width: 100%;
+     float: left;
+     margin-top: 5px;
+ }
+ 
+ .join-text p {
+     font-size: 16px;
+     text-align: justify;
+     margin-top: 5px;
+     height: 40px;
+ }
+ /* Join Part Ended */
+ /*Footer Part Started*/
+ 
+ .footer {
+     background-color: #11489A;
+     padding: 80px 0px;
+ }
+ 
+ .left-text p {
+     font-size: 20px;
+     color: #fff;
+     text-align: justify;
+     line-height: 1.4;
+ }
+ 
+ .right-text p {
+     font-size: 20px;
+     color: #fff;
+     text-align: justify;
+     line-height: 1.3;
+     margin-bottom: 50px;
+ }
+ 
+ .right-text p:last-child {
+     margin-bottom: 0;
+ }
+ /*Footer Part Ended */
